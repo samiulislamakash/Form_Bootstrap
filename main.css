@@ -1,0 +1,130 @@
+*{margin:0px; padding:0px;}
+body{
+	font-family: myriad-pro, sans-serif;
+}
+label{
+	display:block;
+}
+.big-banner{
+	background-image: url('background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:6% 0%;
+}
+.fom{
+	padding:0% 6%;
+}
+.fom .top{
+	text-align:center;
+}
+.fom .top h1 {
+	font-size: 243%;
+	font-weight: bold;
+	color:#cc9900;
+	text-align: center;
+}
+.fom .top img{
+	margin-bottom:5%;
+}
+.fom .top p{
+	font-size: 93%;
+	color:#4c4c4c;
+}
+.fom form{
+	padding:0% 6%;
+}
+.fom form label{
+	color:#c9a131;
+	font-weight: bold;
+}
+.fom form input{
+	width:100%;
+	padding:1% 3.5%;
+	color:#7c7c7c;
+	border:2px solid #ddd;
+}
+.fom form input:focus{
+	outline:none;
+	border:2px solid #c9a131;
+}
+.fom form select{
+	width:100%;
+	padding:2% 2.5%;
+	color:#7c7c7c;
+	border:2px solid #ddd;
+}
+.fom form select option {
+	color:#7c7c7c;
+}
+.fom form select:focus{
+	outline:none;
+	border:2px solid #c9a131;
+}
+.fom form .last_b{
+	border:0px;
+	background-color:#c9a131;
+	font-size:97%;
+	color:#fff;
+	cursor: pointer;
+}
+.fom form .last_b:focus{
+	outline:none;
+	border:0px;
+}
+/* for responsive */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.fom .top h1 {
+		font-size: 215%;
+	}
+	.fom .top p{
+		font-size: 75%;
+		margin-bottom: 3%;
+	}
+	.form-group {
+		margin-bottom:3%;
+	}
+	label{
+		font-size: 96%;
+		margin-bottom:1.5%;
+	}
+	.fom .top img{
+		margin-bottom:4%;
+	}
+	.fom form input{
+		font-size:100%;
+	}
+	.fom form select{
+		font-size:100%;
+	}
+	.fom form .last_b{
+		font-size:94%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.fom .top h1 {
+		font-size: 157%;
+	}
+	.fom .top p{
+		font-size: 54%;
+		margin-bottom: 2%;
+	}
+	.form-group {
+		margin-bottom:1%;
+	}
+	label{
+		font-size: 80%;
+		margin-bottom:1.5%;
+	}
+	.fom .top img{
+		margin-bottom:2%;
+	}
+	.fom form input{
+		font-size:80%;
+	}
+	.fom form select{
+		font-size:80%;
+	}
+	.fom form .last_b{
+		font-size:85%;
+	}
+}
